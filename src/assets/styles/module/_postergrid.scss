@@ -1,87 +1,100 @@
 .cover-pic {
-    width: 100%;
+  width: 100%;
 }
 
 .poster {
-	position: absolute;
-	top: 10%;
-	left: 10%;
-	width: 80vw;
-	height: 80vw;
-	display: grid;
-	grid-template-columns: repeat(16, 1fr);
-	grid-template-rows: repeat(16, 1fr);
-	grid-gap: 4px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80vw;
+  height: 80vw;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-gap: 4px;
 }
 
 .gridboxes span {
-	border: 2px solid $aquaman-bgcolor;
+  border: 2px solid $aquaman-bgcolor;
 }
 
 .gridname {
-	grid-auto-flow: column;
+  grid-auto-flow: column;
 }
 
 .gridname span {
-	background: $aquaman-bgcolor;
-	font-size: 1.85vw;
-	font-family: $font-family-sans-serif;
-	line-height: 2.9;
-	overflow: hidden;
-	text-align: center;
-	font-weight: bold;
+  background: $aquaman-bgcolor;
+  font-size: 1.85vw;
+  font-family: $font-family-sans-serif;
+  line-height: 2.9;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
 }
 
 .colname {
-	grid-column: 13;
+  grid-column: 13;
 }
 
 .letter-A1 {
-	grid-row: 3;
+  grid-row: 3;
 }
+
 .letter-A2 {
-	grid-row: 4;
+  grid-row: 4;
 }
+
 .letter-A3 {
-	grid-row: 5;
+  grid-row: 5;
 }
+
 .letter-A4 {
-	grid-row: 6;
+  grid-row: 6;
 }
+
 .letter-A5 {
-	grid-row: 7;
+  grid-row: 7;
 }
+
 .letter-A6 {
-	grid-row: 8;
+  grid-row: 8;
 }
+
 .letter-A7 {
-	grid-row: 9;
+  grid-row: 9;
 }
+
 .letter-A8 {
-    grid-column: 2;
-	grid-row: 2;
+  grid-column: 2;
+  grid-row: 2;
 }
+
 .letter-A9 {
-    grid-column: 3;
-	grid-row: 2;
+  grid-column: 3;
+  grid-row: 2;
 }
+
 .letter-A10 {
-    grid-column: 4;
-	grid-row: 2;
+  grid-column: 4;
+  grid-row: 2;
 }
+
 .letter-A11 {
-    grid-column: 5;
-	grid-row: 3;
+  grid-column: 5;
+  grid-row: 3;
 }
+
 .letter-A12 {
-    grid-column: 4;
-	grid-row: 4;
+  grid-column: 4;
+  grid-row: 4;
 }
+
 .letter-A13 {
-    grid-column: 3;
-	grid-row: 5;
+  grid-column: 3;
+  grid-row: 5;
 }
+
 .letter-A14 {
-    grid-column: 2;
-	grid-row: 6;
+  grid-column: 2;
+  grid-row: 6;
 }

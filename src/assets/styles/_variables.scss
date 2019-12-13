@@ -9,6 +9,6 @@ $aquaman-bgcolor: paleturquoise;
 
 //colores de Bootstrap
 $theme-colors: (
-  "light": $aquaman-bgcolor
-  //"primary": #fabada // pon el código de color que prefieras
+  "light": $aquaman-bgcolor,
+  "primary": $aquaman-color
 );

@@ -20,10 +20,12 @@
  * It's a best practice to use a partial for each page
  */
 
+@import "base/default";
 @import "layouts/home";
-@import "module/postergrid";
 @import "module/flexsix";
 @import "module/forms";
+@import "module/imgtext";
+@import "module/postergrid";
 @import "theme/aquaman"
 
 /**
